@@ -1,21 +1,26 @@
-# Dependencies
-node_modules/
+# Python
+venv/
+backend/venv/
+__pycache__/
+*.py[cod]
 
-# Environment variables
+# Environment
 .env
 .env.*
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploaded files
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Node
+node_modules/
+frontend/node_modules/
 
 # IDE
 .idea/
 .vscode/
-
-# Build output
-dist/
-build/
-
-# Python
-__pycache__/
-*.pyc
-
-# Logs
-*.log
